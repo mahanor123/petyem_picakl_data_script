@@ -15,7 +15,7 @@ product=main_data.find("div",class_="_1EI9").span.get_text()
 index=product.split()
 index_data=index[1]
 product_number=int(index_data)//32
-print (product_number)
+
 
 def pikel_data():
     number=1
